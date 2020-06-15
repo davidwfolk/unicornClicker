@@ -1,3 +1,10 @@
+body {
+  background-image: url("https://stjohnucctrenton.org/wp-content/uploads/2013/02/rainbow_5997c.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+
 .rainbow {
   text-shadow: 2px 2px 4px #000000;
   
@@ -26,32 +33,16 @@
 	100%{color: orange;}
 }
 
-/* Internet Explorer */
-@-ms-keyframes rainbow{
-   0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+.rb-border {
+  border: 5px solid transparent;
+  border-image: linear-gradient(to top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 }
 
-/* Standar Syntax */
-@keyframes rainbow{
-    0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+.food {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.bg {
+  background-color: rgba(255, 255, 255, 0.7);
 }
