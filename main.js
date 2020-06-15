@@ -20,13 +20,31 @@ let clickUpGrades = {
 }
   let autoUpgrades = {
     iceCream: {
-      name: "iceCream",
+      name: "icream",
       price: 250,
       quantity: 0,
       multiplier: 20
     },
-    cottonCandy
+    cottonCandy: {
+      name: "ccandy",
+      price: 500,
+      quantity: 0,
+      multiplier: 40
+    }
   }
+
+  let collectAutoUpgrades = {}
+
+//NOTE Business Logic
+
+function feed(playerChoice) {
+  let feeding = eating[playerChoice]
+  food += feeding
+  //calcSingleUpgrade()
+  console.log(food);
+  
+}
+
 
 
 
