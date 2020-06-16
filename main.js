@@ -7,13 +7,13 @@ let eating = {
 let clickUpGrades = {
   dots: {
     name: "Dots",
-    price: 2,
+    price: 50,
     quantity: 0,
     multiplier: 1,
   },
   skittles: {
     name: "Skittles",
-    price: 2,
+    price: 100,
     quantity: 0,
     multiplier: 2,
   }
@@ -21,13 +21,13 @@ let clickUpGrades = {
 let autoUpgrades = {
   iceCream: {
     name: "Ice Cream",
-    price: 2,
+    price: 250,
     quantity: 0,
     multiplier: 10
   },
   cottonCandy: {
     name: "Cotton Candy",
-    price: 2,
+    price: 500,
     quantity: 0,
     multiplier: 20
   }
