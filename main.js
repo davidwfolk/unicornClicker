@@ -93,6 +93,7 @@ function calcAutoUpgrade() {
   for (const key in autoUpgrades){
     food += autoUpgrades[key].multiplier * autoUpgrades[key].quantity
   }
+  document.getElementById("food-count").innerText = food
 }
 
 //#endregion
